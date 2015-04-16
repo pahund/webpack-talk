@@ -5,16 +5,15 @@
  * @since 16 Apr 2015
  */
 
-class Fattyfier {
-
-    constructor(id) {
+define(function () {
+    function Fattyfier(id) {
         this.element = document.getElementById(id);
     }
 
-    fat() {
+    Fattyfier.prototype.fat = function () {
         this.element.style.fontWeight = "bold";
     }
-}
 
-export default Fattyfier;
+    return Fattyfier;
+});
 

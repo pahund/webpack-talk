@@ -18,4 +18,3 @@ class Pinkyfier {
 }
 
 export default Pinkyfier;
-
