@@ -3,14 +3,7 @@ webpackJsonp([1],[
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_RESULT__;/**
-	 * Fattyfier.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
-
-	!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
+	var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
 	    function Fattyfier(id) {
 	        this.element = document.getElementById(id);
 	    }
@@ -27,13 +20,6 @@ webpackJsonp([1],[
 /***/ },
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Pinkyfier.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
 
 	function Pinkyfier(id) {
 	    this.element = document.getElementById(id);

@@ -6,10 +6,50 @@
 </head>
 <body>
 <h1>Packing the Web Like a Boss</h1>
-<p>Code examples from Patrick Hund's blog article about webpack on the eBay Dev Blog</p>
+<p>
+    Code examples from <a href="https://twitter.com/wiekatz">Patrick Hund</a>'s talk and
+    <a href="http://www.technology-ebay.de/the-teams/mobile-de/blog/packing-the-web-like-a-boss.html">blog article</a>
+    about webpack.
+</p>
+<p>
+    You can find the <a href="https://github.com/pahund/webpack-talk">source code on GitHub</a>.
+</p>
 <ul>
     <li>
-        <a href="01_global-vars/index.html">The naïve way of delivering JavaScript to the client</a>
+        <a href="01_global-vars/index.html">Example 1: The Naïve Way of Delivering JavaScript to the Client</a><br>
+        All JavaScript variables are in the global scope
+    </li>
+    <li>
+        <a href="02_amd/index.html">Example 2: A Better Way - AMD Modules</a><br>
+        Using RequireJS
+    </li>
+    <li>
+        <a href="03_commonjs/index.html">Example 3: The Node.js Way - CommonJS Modules</a><br>
+        Using Browserify
+    </li>
+    <li>
+        <a href="04_es6/index.html">Example 4: The Future - ES6 Modules</a><br>
+        This will not work in current browsers (as of April 2015)
+    </li>
+    <li>
+        <a href="05_webpack_amd/index.html">Example 5: Enter webpack</a><br>
+        AMD modules bundled with webpack
+    </li>
+    <li>
+        <a href="06_webpack_amd-commonjs/index.html">Example 6: The Fun Part</a><br>
+        Using AMD and CommonJS modules together
+    </li>
+    <li>
+        <a href="07_webpack-es6/index.html">Example 7: Back to the Future</a><br>
+        Using webpack's Babel loader to transpile ES6 code to ES5.1 JavaScript
+    </li>
+    <li>
+        <a href="08_webpack_multiple-bundles/index.html">Example 8: Good, Clean, Asynchronous Fun</a><br>
+        Loading modules only when they are needed
+    </li>
+    <li>
+        <a href="09_webpack-optimization/index.html">Example 9: Optimization Options</a><br>
+        Bundles optimized with Uglify, with source maps for debugging
     </li>
 </ul>
 </body>

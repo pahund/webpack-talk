@@ -94,13 +94,6 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/**
-	 * main.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
-
 	var Pinkyfier = __webpack_require__(1),
 	    pinkyfier = new Pinkyfier("text");
 
@@ -117,13 +110,6 @@
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
-
-	/**
-	 * Pinkyfier.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
 
 	function Pinkyfier(id) {
 	    this.element = document.getElementById(id);

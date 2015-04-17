@@ -48,13 +48,6 @@
 
 	var _interopRequireWildcard = function (obj) { return obj && obj.__esModule ? obj : { "default": obj }; };
 
-	/**
-	 * main.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
-
 	var _Pinkyfier = __webpack_require__(1);
 
 	var _Pinkyfier2 = _interopRequireWildcard(_Pinkyfier);
@@ -85,12 +78,6 @@
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-	/**
-	 * Pinkyfier.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
 
 	var Pinkyfier = (function () {
 	    function Pinkyfier(id) {
@@ -126,12 +113,6 @@
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-	/**
-	 * Fattyfier.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
 
 	var Fattyfier = (function () {
 	    function Fattyfier(id) {

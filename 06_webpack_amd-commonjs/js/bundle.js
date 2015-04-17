@@ -94,13 +94,6 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	/**
-	 * main.js
-	 *
-	 * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
-	 * @since 16 Apr 2015
-	 */
-
 	__webpack_require__.e/* require */(1, function(__webpack_require__) { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [ __webpack_require__(1), __webpack_require__(2) ]; (function (Fattyfier, Pinkyfier) {
 
 	    var pinkyfier = new Pinkyfier("text"),
