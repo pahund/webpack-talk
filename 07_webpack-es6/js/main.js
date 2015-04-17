@@ -1,10 +1,3 @@
-/**
- * main.js
- *
- * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
- * @since 16 Apr 2015
- */
-
 import Pinkyfier from "./Pinkyfier";
 import Fattyfier from "./Fattyfier";
 

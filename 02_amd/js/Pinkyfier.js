@@ -1,10 +1,3 @@
-/**
- * Pinkyfier.js
- *
- * @author <a href="mailto:pahund@team.mobile.de">Patrick Hund</a>
- * @since 16 Apr 2015
- */
-
 define(function () {
     function Pinkyfier(id) {
         this.element = document.getElementById(id);
